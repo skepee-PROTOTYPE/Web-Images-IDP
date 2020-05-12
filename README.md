@@ -1,4 +1,4 @@
-# Images Json Portal
+# Web API Images Json Portal
 
 Images Json Portal is a Web Api generator for images. As a hosting service you can upload your images to produce API. You can choose which attributes to add in your Json (size, resolution, length, ...).
 
