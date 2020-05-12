@@ -8,8 +8,6 @@ Try! It's time to use API!
 
 Like [flickr](https://www.flickr.com/) you can also simply hosts your images and use whenever you need.
 
-[https://imagejsonportal.azurewebsites.net/](https://imagejsonportal.azurewebsites.net/)
-
 Image attributes:
 
 * Name (you cannot edit)
