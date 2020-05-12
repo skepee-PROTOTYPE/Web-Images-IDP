@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Imagexx.cs" />
+    <Compile Remove="MyContainer.cs" />
+    <Compile Remove="MyGalleries.cs" />
+    <Compile Remove="MyImages.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyAzure\MyAzure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,99 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<style>
+    .frontpage {
+        font-size: 6em;
+        text-align: center;
+        padding-top: 10px;
+    }
+</style>
+
+
+<header>
+    <div id="carouselIndex" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselIndex" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselIndex" data-slide-to="1"></li>
+            <li data-target="#carouselIndex" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" style="background-color: #ffae64">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Image Repository</h3>
+                    <p>A new media provider.</p>
+                    <img src="~/img/upload.gif" style="width:400px; height:300px;" />
+                </div>
+            </div>
+            <div class="carousel-item" style="background-color: #a6d9ff">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Gallery generator</h3>
+                    <p>Create your galleries.</p>
+                    <img src="~/img/gallery.gif" />
+                </div>
+            </div>
+            <div class="carousel-item" style="background-color: #cadecb">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Json API Resource for your webites.</h3>
+                    <p>API resource automatically generated for your websites</p>
+                    <img src="~/img/json.gif" />
+                </div>
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselIndex" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselIndex" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</header>
+
+<div class="container">
+    <h1 class="my-4">Welcome to the modern media provider</h1>
+
+    <div class="row">
+        <div class="col-lg-3 mb-3">
+            <div class="card">
+                <i class="fas fa-cloud-upload-alt frontpage"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Upload your Photos</h5>
+                    <p class="card-text">Create your space to upload public or private photos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 mb-3">
+            <div class="card">
+                <i class="far fa-images frontpage"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Add images to your gallery</h5>
+                    <p class="card-text">Generate your gallery of images</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 mb-3">
+            <div class="card">
+                <i class="fas fa-share-alt frontpage"></i>
+                <div class="card-body">
+                    <h5 class="card-title">API automatically generated</h5>
+                    <p class="card-text">Your Web API resource ready to use in every app</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 mb-3">
+            <div class="card">
+                <i class="fas fa-laptop-code frontpage"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Insert in your websites.</h5>
+                    <p class="card-text">Choose your web component gallery for your websited</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
